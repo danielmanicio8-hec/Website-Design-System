@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", sans-serif;
+  margin: 0 10%;
+}
+
+.container {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.section-title {
+  font-style: italic;
+}
+
+/* Color Section*/
+
+.color-container {
+  width: 100%;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 10px auto;
+  min-height: 100px;
+  border-radius: 4px;
+}
+
+.teal {
+  background-color: #59b292;
+}
+
+.yellow {
+  background-color: #ffc94d;
+}
+
+.beige {
+  background-color: #fae7cb;
+}
+
+.pink {
+  background-color: #fa6781;
+}
+
+/* Font Section*/
+
+.font-panel {
+  display: inline-block;
+  width: 45%;
+  margin-left: 16px;
+}
+.font-label {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.roboto {
+  font-family: Roboto;
+}
+
+.yesteryear {
+  font-family: Yesteryear;
+}
+
+.old-standard-tt {
+  font-family: "Old Standard TT";
+}
+
+.finlandica-headline {
+  font-family: "Finlandica Headline";
+}
+
+/* Text Style Section*/
+
+.text-panel h1 {
+    font-weight: 700px;
+    font-size: 32px;
+    font-family: Roboto, sans-serif;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Old Standart TT", sans-serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Finlandica Headline';
+}
