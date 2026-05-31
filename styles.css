@@ -7,6 +7,10 @@ body {
   margin: 0 10%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   border: 2px solid #ccc;
   padding: 10px;
@@ -101,4 +105,18 @@ body {
     font-weight: 400;
     font-size: 12px;
     font-family: 'Finlandica Headline';
+}
+
+/* Links */
+
+.links {
+  display: flex;
+  justify-content:end;
+}
+
+.link {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px;
+  list-style-type: none;
 }
